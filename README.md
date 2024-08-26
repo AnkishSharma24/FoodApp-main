@@ -1160,7 +1160,7 @@ const cartItems = useSelector((store)=> store.cart.items)
      <button onClick={handleClearCart} className="bg-black text-white rounded-lg p-2">Clear Cart</button>
 
 # Step 27
-
+                                                        TESTING
 Test Cases
 1) Manual Testing
 2) Writing test cases (Types of testing - developers)
@@ -1183,3 +1183,13 @@ Jest with its configuration also uses babel. So now we have to make some changes
 4)Read(Babel) - https://parceljs.org/languages/javascript/#babel
 -> Go to above link and create a new file parcel.rc and add the contents from -> Usage with other tools
 -> After doing the above configuration configuration babel will not conflict.
+-> npm run test
+-> npx jest --init
+- do you want typescript -> no
+- testing environment -> jsDOM
+- do you want coverage report -> yes
+- V8/babel -> babel
+- mock calls -> yes
+
+Install jsdom library -> NOTE: If you're using Jest 28 or later, jest-environment-jsdom package now must be installed separately. -->  npm install --save-dev jest-environment-jsdom
+
